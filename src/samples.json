@@ -1,0 +1,3167 @@
+[
+  {
+    "__typename": "Sample",
+    "id": "213e799b-aadd-4e72-a745-14babed2d313",
+    "clientSampleId": "CL-A0-0003-5456",
+    "sampledBy": "",
+    "dateSampled": 1598300047495,
+    "samplePlan": {
+      "__typename": "SamplePlan",
+      "id": "9fa6228b-2c8c-404e-b51a-2ba22dc44c39",
+      "name": "Beverly Hills"
+    },
+    "sampleSite": {
+      "__typename": "SampleSite",
+      "id": "58355ea7-f184-42cd-9edc-ef4da29dacf5",
+      "clientSampleSiteId": "1029",
+      "description": "Blow outside the leaves and the wind",
+      "floor": {
+        "__typename": "Floor",
+        "id": "0de08c30-7d98-411c-bd79-442a82d24b81",
+        "floorPlanFileId": "e48375bb-d46f-4569-86bb-3d8a8fd4fde2",
+        "name": "NFlor",
+        "building": {
+          "__typename": "Building",
+          "id": "715e4752-7f80-42b8-a3d6-94e3ca2e0cac",
+          "name": "Floor Building"
+        }
+      },
+      "floorObject": {
+        "__typename": "FloorObject",
+        "id": "dc87ba5e-73ee-43a7-9bef-e675ed1bf63c",
+        "name": "air blower"
+      },
+      "lineNumber": "1",
+      "sampleSitePosition": {
+        "__typename": "SampleSitePosition",
+        "x": 1944,
+        "y": 512
+      },
+      "zone": "ZONE_1"
+    },
+    "taxonomySetting": {
+      "__typename": "TaxonomySetting",
+      "taxonomyLineage": {
+        "__typename": "TaxonomyLineage",
+        "enabled": true,
+        "rank": "GENUS",
+        "taxonomyElements": [
+          {
+            "__typename": "TaxonomyElement",
+            "id": "1066",
+            "name": "salmonella",
+            "selected": false,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2229",
+                  "name": "salmonella enterica",
+                  "selected": false,
+                  "taxonomySubLineage": {
+                    "__typename": "TaxonomyLineage",
+                    "enabled": false,
+                    "rank": "SUBSPECIES",
+                    "taxonomyElements": [
+                      {
+                        "__typename": "TaxonomyElement",
+                        "id": "147723",
+                        "name": "salmonella enterica subsp. enterica",
+                        "selected": false,
+                        "taxonomySubLineage": {
+                          "__typename": "TaxonomyLineage",
+                          "enabled": false,
+                          "rank": "SEROTYPE",
+                          "taxonomyElements": [
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147725",
+                              "name": "agona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147726",
+                              "name": "alachua",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147727",
+                              "name": "albany",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147728",
+                              "name": "anatum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147729",
+                              "name": "bareilly",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147730",
+                              "name": "berta",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147731",
+                              "name": "blockley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147732",
+                              "name": "braenderup",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147733",
+                              "name": "cerro",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147734",
+                              "name": "derby",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147735",
+                              "name": "dublin",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147736",
+                              "name": "enteritidis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147737",
+                              "name": "give",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147738",
+                              "name": "hadar",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147739",
+                              "name": "heidelberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147740",
+                              "name": "i 4,[5],12:i:-",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147741",
+                              "name": "infantis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147742",
+                              "name": "javiana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147743",
+                              "name": "johannesburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147744",
+                              "name": "kentucky",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147745",
+                              "name": "mbandaka",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147746",
+                              "name": "mississippi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147747",
+                              "name": "montevideo",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147748",
+                              "name": "muenchen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147749",
+                              "name": "newport",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147750",
+                              "name": "oranienburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147751",
+                              "name": "panama",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147752",
+                              "name": "paratyphi b",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147753",
+                              "name": "poona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147754",
+                              "name": "reading",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147755",
+                              "name": "rissen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147756",
+                              "name": "saintpaul",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147757",
+                              "name": "schwarzengrund",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147758",
+                              "name": "senftenberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147759",
+                              "name": "stanley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147760",
+                              "name": "thompson",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147761",
+                              "name": "typhi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147762",
+                              "name": "typhimurium",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147763",
+                              "name": "virchow",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147765",
+                              "name": "tennessee",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147766",
+                              "name": "liverpool",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147767",
+                              "name": "uganda",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147768",
+                              "name": "gallinarum/pullorum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147769",
+                              "name": "minnesota",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147770",
+                              "name": "ohio",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147771",
+                              "name": "molade",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147772",
+                              "name": "litchfield",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147773",
+                              "name": "sandiego",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147774",
+                              "name": "meleagridis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147780",
+                              "name": "barranquilla",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147781",
+                              "name": "cubana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147782",
+                              "name": "gaminara",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147783",
+                              "name": "havana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147784",
+                              "name": "idikan",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147785",
+                              "name": "lille",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147786",
+                              "name": "pomona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147787",
+                              "name": "putten",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147788",
+                              "name": "roodepoort",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147789",
+                              "name": "muenster",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147790",
+                              "name": "norwich",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147791",
+                              "name": "worthington",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147792",
+                              "name": "ouakam",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "3350",
+                  "name": "salmonella bongori",
+                  "selected": false,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "TaxonomyElement",
+            "id": "126578",
+            "name": "listeria",
+            "selected": true,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "395",
+                  "name": "listeria monocytogenes",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2172",
+                  "name": "listeria welshimeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2222",
+                  "name": "listeria innocua",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2223",
+                  "name": "listeria seeligeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2224",
+                  "name": "listeria ivanovii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2225",
+                  "name": "listeria marthii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "38710",
+                  "name": "listeria grayi",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "qcSetting": {
+        "__typename": "TaxonomyElement",
+        "id": "147724",
+        "name": "abaetetuba",
+        "selected": false
+      },
+      "secondaryAnalysisEnabled": false,
+      "similarityAnalysisEnabled": true
+    }
+  },
+  {
+    "__typename": "Sample",
+    "id": "213e799b-aadd-4e72-a745-14babed2d314",
+    "clientSampleId": "CL-A0-0003-5902",
+    "sampledBy": "",
+    "dateSampled": 1598300047495,
+    "samplePlan": {
+      "__typename": "SamplePlan",
+      "id": "9fa6228b-2c8c-404e-b51a-2ba22dc44c39",
+      "name": "Beverly Hills"
+    },
+    "sampleSite": {
+      "__typename": "SampleSite",
+      "id": "58355ea7-f184-42cd-9edc-ef4da29dacf5",
+      "clientSampleSiteId": "1029",
+      "description": "Blow outside the leaves and the wind",
+      "floor": {
+        "__typename": "Floor",
+        "id": "0de08c30-7d98-411c-bd79-442a82d24b81",
+        "floorPlanFileId": "e48375bb-d46f-4569-86bb-3d8a8fd4fde2",
+        "name": "NFlor",
+        "building": {
+          "__typename": "Building",
+          "id": "715e4752-7f80-42b8-a3d6-94e3ca2e0cac",
+          "name": "Floor Building"
+        }
+      },
+      "floorObject": {
+        "__typename": "FloorObject",
+        "id": "dc87ba5e-73ee-43a7-9bef-e675ed1bf63c",
+        "name": "air blower"
+      },
+      "lineNumber": "1",
+      "sampleSitePosition": {
+        "__typename": "SampleSitePosition",
+        "x": 2020,
+        "y": 400
+      },
+      "zone": "ZONE_1"
+    },
+    "taxonomySetting": {
+      "__typename": "TaxonomySetting",
+      "taxonomyLineage": {
+        "__typename": "TaxonomyLineage",
+        "enabled": true,
+        "rank": "GENUS",
+        "taxonomyElements": [
+          {
+            "__typename": "TaxonomyElement",
+            "id": "1066",
+            "name": "salmonella",
+            "selected": false,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2229",
+                  "name": "salmonella enterica",
+                  "selected": false,
+                  "taxonomySubLineage": {
+                    "__typename": "TaxonomyLineage",
+                    "enabled": false,
+                    "rank": "SUBSPECIES",
+                    "taxonomyElements": [
+                      {
+                        "__typename": "TaxonomyElement",
+                        "id": "147723",
+                        "name": "salmonella enterica subsp. enterica",
+                        "selected": false,
+                        "taxonomySubLineage": {
+                          "__typename": "TaxonomyLineage",
+                          "enabled": false,
+                          "rank": "SEROTYPE",
+                          "taxonomyElements": [
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147725",
+                              "name": "agona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147726",
+                              "name": "alachua",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147727",
+                              "name": "albany",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147728",
+                              "name": "anatum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147729",
+                              "name": "bareilly",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147730",
+                              "name": "berta",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147731",
+                              "name": "blockley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147732",
+                              "name": "braenderup",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147733",
+                              "name": "cerro",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147734",
+                              "name": "derby",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147735",
+                              "name": "dublin",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147736",
+                              "name": "enteritidis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147737",
+                              "name": "give",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147738",
+                              "name": "hadar",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147739",
+                              "name": "heidelberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147740",
+                              "name": "i 4,[5],12:i:-",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147741",
+                              "name": "infantis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147742",
+                              "name": "javiana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147743",
+                              "name": "johannesburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147744",
+                              "name": "kentucky",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147745",
+                              "name": "mbandaka",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147746",
+                              "name": "mississippi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147747",
+                              "name": "montevideo",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147748",
+                              "name": "muenchen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147749",
+                              "name": "newport",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147750",
+                              "name": "oranienburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147751",
+                              "name": "panama",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147752",
+                              "name": "paratyphi b",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147753",
+                              "name": "poona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147754",
+                              "name": "reading",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147755",
+                              "name": "rissen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147756",
+                              "name": "saintpaul",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147757",
+                              "name": "schwarzengrund",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147758",
+                              "name": "senftenberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147759",
+                              "name": "stanley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147760",
+                              "name": "thompson",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147761",
+                              "name": "typhi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147762",
+                              "name": "typhimurium",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147763",
+                              "name": "virchow",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147765",
+                              "name": "tennessee",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147766",
+                              "name": "liverpool",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147767",
+                              "name": "uganda",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147768",
+                              "name": "gallinarum/pullorum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147769",
+                              "name": "minnesota",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147770",
+                              "name": "ohio",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147771",
+                              "name": "molade",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147772",
+                              "name": "litchfield",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147773",
+                              "name": "sandiego",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147774",
+                              "name": "meleagridis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147780",
+                              "name": "barranquilla",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147781",
+                              "name": "cubana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147782",
+                              "name": "gaminara",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147783",
+                              "name": "havana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147784",
+                              "name": "idikan",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147785",
+                              "name": "lille",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147786",
+                              "name": "pomona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147787",
+                              "name": "putten",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147788",
+                              "name": "roodepoort",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147789",
+                              "name": "muenster",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147790",
+                              "name": "norwich",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147791",
+                              "name": "worthington",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147792",
+                              "name": "ouakam",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "3350",
+                  "name": "salmonella bongori",
+                  "selected": false,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "TaxonomyElement",
+            "id": "126578",
+            "name": "listeria",
+            "selected": true,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "395",
+                  "name": "listeria monocytogenes",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2172",
+                  "name": "listeria welshimeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2222",
+                  "name": "listeria innocua",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2223",
+                  "name": "listeria seeligeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2224",
+                  "name": "listeria ivanovii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2225",
+                  "name": "listeria marthii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "38710",
+                  "name": "listeria grayi",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "qcSetting": {
+        "__typename": "TaxonomyElement",
+        "id": "147724",
+        "name": "abaetetuba",
+        "selected": false
+      },
+      "secondaryAnalysisEnabled": false,
+      "similarityAnalysisEnabled": true
+    }
+  },
+  {
+    "__typename": "Sample",
+    "id": "d0b33a90-d93f-4386-9576-c7dd0fd3e078",
+    "clientSampleId": "CL-A0-0003-5457",
+    "sampledBy": "",
+    "dateSampled": 1598300047495,
+    "sampleSite": {
+      "__typename": "SampleSite",
+      "id": "3fdffe2c-ec56-4244-8c4c-30b083f41217",
+      "clientSampleSiteId": "n2",
+      "description": "n2",
+      "floorObject": {
+        "__typename": "FloorObject",
+        "id": "c020bc6a-90ea-4ebe-8ba7-0510c19c9f95",
+        "name": "n2"
+      },
+      "lineNumber": "n2",
+      "sampleSitePosition": {
+        "__typename": "SampleSitePosition",
+        "x": 2200,
+        "y": 575
+      },
+      "zone": "ZONE_2"
+    },
+    "taxonomySetting": {
+      "__typename": "TaxonomySetting",
+      "taxonomyLineage": {
+        "__typename": "TaxonomyLineage",
+        "enabled": true,
+        "rank": "GENUS",
+        "taxonomyElements": [
+          {
+            "__typename": "TaxonomyElement",
+            "id": "1066",
+            "name": "salmonella",
+            "selected": false,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2229",
+                  "name": "salmonella enterica",
+                  "selected": false,
+                  "taxonomySubLineage": {
+                    "__typename": "TaxonomyLineage",
+                    "enabled": false,
+                    "rank": "SUBSPECIES",
+                    "taxonomyElements": [
+                      {
+                        "__typename": "TaxonomyElement",
+                        "id": "147723",
+                        "name": "salmonella enterica subsp. enterica",
+                        "selected": false,
+                        "taxonomySubLineage": {
+                          "__typename": "TaxonomyLineage",
+                          "enabled": false,
+                          "rank": "SEROTYPE",
+                          "taxonomyElements": [
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147725",
+                              "name": "agona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147726",
+                              "name": "alachua",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147727",
+                              "name": "albany",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147728",
+                              "name": "anatum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147729",
+                              "name": "bareilly",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147730",
+                              "name": "berta",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147731",
+                              "name": "blockley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147732",
+                              "name": "braenderup",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147733",
+                              "name": "cerro",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147734",
+                              "name": "derby",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147735",
+                              "name": "dublin",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147736",
+                              "name": "enteritidis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147737",
+                              "name": "give",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147738",
+                              "name": "hadar",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147739",
+                              "name": "heidelberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147740",
+                              "name": "i 4,[5],12:i:-",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147741",
+                              "name": "infantis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147742",
+                              "name": "javiana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147743",
+                              "name": "johannesburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147744",
+                              "name": "kentucky",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147745",
+                              "name": "mbandaka",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147746",
+                              "name": "mississippi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147747",
+                              "name": "montevideo",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147748",
+                              "name": "muenchen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147749",
+                              "name": "newport",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147750",
+                              "name": "oranienburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147751",
+                              "name": "panama",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147752",
+                              "name": "paratyphi b",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147753",
+                              "name": "poona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147754",
+                              "name": "reading",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147755",
+                              "name": "rissen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147756",
+                              "name": "saintpaul",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147757",
+                              "name": "schwarzengrund",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147758",
+                              "name": "senftenberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147759",
+                              "name": "stanley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147760",
+                              "name": "thompson",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147761",
+                              "name": "typhi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147762",
+                              "name": "typhimurium",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147763",
+                              "name": "virchow",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147765",
+                              "name": "tennessee",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147766",
+                              "name": "liverpool",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147767",
+                              "name": "uganda",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147768",
+                              "name": "gallinarum/pullorum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147769",
+                              "name": "minnesota",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147770",
+                              "name": "ohio",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147771",
+                              "name": "molade",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147772",
+                              "name": "litchfield",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147773",
+                              "name": "sandiego",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147774",
+                              "name": "meleagridis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147780",
+                              "name": "barranquilla",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147781",
+                              "name": "cubana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147782",
+                              "name": "gaminara",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147783",
+                              "name": "havana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147784",
+                              "name": "idikan",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147785",
+                              "name": "lille",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147786",
+                              "name": "pomona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147787",
+                              "name": "putten",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147788",
+                              "name": "roodepoort",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147789",
+                              "name": "muenster",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147790",
+                              "name": "norwich",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147791",
+                              "name": "worthington",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147792",
+                              "name": "ouakam",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "3350",
+                  "name": "salmonella bongori",
+                  "selected": false,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "TaxonomyElement",
+            "id": "126578",
+            "name": "listeria",
+            "selected": true,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "395",
+                  "name": "listeria monocytogenes",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2172",
+                  "name": "listeria welshimeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2222",
+                  "name": "listeria innocua",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2223",
+                  "name": "listeria seeligeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2224",
+                  "name": "listeria ivanovii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2225",
+                  "name": "listeria marthii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "38710",
+                  "name": "listeria grayi",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "qcSetting": {
+        "__typename": "TaxonomyElement",
+        "id": "147724",
+        "name": "abaetetuba",
+        "selected": false
+      },
+      "secondaryAnalysisEnabled": false,
+      "similarityAnalysisEnabled": true
+    }
+  },
+  {
+    "__typename": "Sample",
+    "id": "3fcb9fdc-1de3-4295-9f69-40dd03744bd5",
+    "clientSampleId": "CL-A0-0003-5458",
+    "sampledBy": "",
+    "dateSampled": 1598300047495,
+    "sampleSite": {
+      "__typename": "SampleSite",
+      "id": "44a3abbe-1e5b-49bf-8b73-87858f417d71",
+      "clientSampleSiteId": "1234112",
+      "description": "add air blower",
+      "lineNumber": "1232",
+      "sampleSitePosition": {
+        "__typename": "SampleSitePosition",
+        "x": 2408,
+        "y": 1675
+      },
+      "zone": "ZONE_1"
+    },
+    "taxonomySetting": {
+      "__typename": "TaxonomySetting",
+      "taxonomyLineage": {
+        "__typename": "TaxonomyLineage",
+        "enabled": true,
+        "rank": "GENUS",
+        "taxonomyElements": [
+          {
+            "__typename": "TaxonomyElement",
+            "id": "1066",
+            "name": "salmonella",
+            "selected": false,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2229",
+                  "name": "salmonella enterica",
+                  "selected": false,
+                  "taxonomySubLineage": {
+                    "__typename": "TaxonomyLineage",
+                    "enabled": false,
+                    "rank": "SUBSPECIES",
+                    "taxonomyElements": [
+                      {
+                        "__typename": "TaxonomyElement",
+                        "id": "147723",
+                        "name": "salmonella enterica subsp. enterica",
+                        "selected": false,
+                        "taxonomySubLineage": {
+                          "__typename": "TaxonomyLineage",
+                          "enabled": false,
+                          "rank": "SEROTYPE",
+                          "taxonomyElements": [
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147725",
+                              "name": "agona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147726",
+                              "name": "alachua",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147727",
+                              "name": "albany",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147728",
+                              "name": "anatum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147729",
+                              "name": "bareilly",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147730",
+                              "name": "berta",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147731",
+                              "name": "blockley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147732",
+                              "name": "braenderup",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147733",
+                              "name": "cerro",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147734",
+                              "name": "derby",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147735",
+                              "name": "dublin",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147736",
+                              "name": "enteritidis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147737",
+                              "name": "give",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147738",
+                              "name": "hadar",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147739",
+                              "name": "heidelberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147740",
+                              "name": "i 4,[5],12:i:-",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147741",
+                              "name": "infantis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147742",
+                              "name": "javiana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147743",
+                              "name": "johannesburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147744",
+                              "name": "kentucky",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147745",
+                              "name": "mbandaka",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147746",
+                              "name": "mississippi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147747",
+                              "name": "montevideo",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147748",
+                              "name": "muenchen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147749",
+                              "name": "newport",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147750",
+                              "name": "oranienburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147751",
+                              "name": "panama",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147752",
+                              "name": "paratyphi b",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147753",
+                              "name": "poona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147754",
+                              "name": "reading",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147755",
+                              "name": "rissen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147756",
+                              "name": "saintpaul",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147757",
+                              "name": "schwarzengrund",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147758",
+                              "name": "senftenberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147759",
+                              "name": "stanley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147760",
+                              "name": "thompson",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147761",
+                              "name": "typhi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147762",
+                              "name": "typhimurium",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147763",
+                              "name": "virchow",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147765",
+                              "name": "tennessee",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147766",
+                              "name": "liverpool",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147767",
+                              "name": "uganda",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147768",
+                              "name": "gallinarum/pullorum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147769",
+                              "name": "minnesota",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147770",
+                              "name": "ohio",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147771",
+                              "name": "molade",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147772",
+                              "name": "litchfield",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147773",
+                              "name": "sandiego",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147774",
+                              "name": "meleagridis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147780",
+                              "name": "barranquilla",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147781",
+                              "name": "cubana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147782",
+                              "name": "gaminara",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147783",
+                              "name": "havana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147784",
+                              "name": "idikan",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147785",
+                              "name": "lille",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147786",
+                              "name": "pomona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147787",
+                              "name": "putten",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147788",
+                              "name": "roodepoort",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147789",
+                              "name": "muenster",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147790",
+                              "name": "norwich",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147791",
+                              "name": "worthington",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147792",
+                              "name": "ouakam",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "3350",
+                  "name": "salmonella bongori",
+                  "selected": false,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "TaxonomyElement",
+            "id": "126578",
+            "name": "listeria",
+            "selected": true,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "395",
+                  "name": "listeria monocytogenes",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2172",
+                  "name": "listeria welshimeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2222",
+                  "name": "listeria innocua",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2223",
+                  "name": "listeria seeligeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2224",
+                  "name": "listeria ivanovii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2225",
+                  "name": "listeria marthii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "38710",
+                  "name": "listeria grayi",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "qcSetting": {
+        "__typename": "TaxonomyElement",
+        "id": "147724",
+        "name": "abaetetuba",
+        "selected": false
+      },
+      "secondaryAnalysisEnabled": false,
+      "similarityAnalysisEnabled": true
+    }
+  },
+  {
+    "__typename": "Sample",
+    "id": "a0a4a999-ac1a-4814-9bcb-550aab15e29b",
+    "clientSampleId": "CL-A0-0003-5459",
+    "sampledBy": "",
+    "dateSampled": 1598300047495,
+    "sampleSite": {
+      "__typename": "SampleSite",
+      "id": "13f36b9d-a972-4351-93cf-bbe453a651b7",
+      "clientSampleSiteId": "n1",
+      "description": "n1",
+      "floorObject": {
+        "__typename": "FloorObject",
+        "id": "769be9c4-9227-4b64-a132-7b686e447bd7",
+        "name": "n1"
+      },
+      "lineNumber": "n1",
+      "sampleSitePosition": {
+        "__typename": "SampleSitePosition",
+        "x": 3977,
+        "y": 2490
+      },
+      "zone": "ZONE_1"
+    },
+    "taxonomySetting": {
+      "__typename": "TaxonomySetting",
+      "taxonomyLineage": {
+        "__typename": "TaxonomyLineage",
+        "enabled": true,
+        "rank": "GENUS",
+        "taxonomyElements": [
+          {
+            "__typename": "TaxonomyElement",
+            "id": "1066",
+            "name": "salmonella",
+            "selected": false,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2229",
+                  "name": "salmonella enterica",
+                  "selected": false,
+                  "taxonomySubLineage": {
+                    "__typename": "TaxonomyLineage",
+                    "enabled": false,
+                    "rank": "SUBSPECIES",
+                    "taxonomyElements": [
+                      {
+                        "__typename": "TaxonomyElement",
+                        "id": "147723",
+                        "name": "salmonella enterica subsp. enterica",
+                        "selected": false,
+                        "taxonomySubLineage": {
+                          "__typename": "TaxonomyLineage",
+                          "enabled": false,
+                          "rank": "SEROTYPE",
+                          "taxonomyElements": [
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147725",
+                              "name": "agona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147726",
+                              "name": "alachua",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147727",
+                              "name": "albany",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147728",
+                              "name": "anatum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147729",
+                              "name": "bareilly",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147730",
+                              "name": "berta",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147731",
+                              "name": "blockley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147732",
+                              "name": "braenderup",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147733",
+                              "name": "cerro",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147734",
+                              "name": "derby",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147735",
+                              "name": "dublin",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147736",
+                              "name": "enteritidis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147737",
+                              "name": "give",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147738",
+                              "name": "hadar",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147739",
+                              "name": "heidelberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147740",
+                              "name": "i 4,[5],12:i:-",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147741",
+                              "name": "infantis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147742",
+                              "name": "javiana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147743",
+                              "name": "johannesburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147744",
+                              "name": "kentucky",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147745",
+                              "name": "mbandaka",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147746",
+                              "name": "mississippi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147747",
+                              "name": "montevideo",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147748",
+                              "name": "muenchen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147749",
+                              "name": "newport",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147750",
+                              "name": "oranienburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147751",
+                              "name": "panama",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147752",
+                              "name": "paratyphi b",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147753",
+                              "name": "poona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147754",
+                              "name": "reading",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147755",
+                              "name": "rissen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147756",
+                              "name": "saintpaul",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147757",
+                              "name": "schwarzengrund",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147758",
+                              "name": "senftenberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147759",
+                              "name": "stanley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147760",
+                              "name": "thompson",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147761",
+                              "name": "typhi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147762",
+                              "name": "typhimurium",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147763",
+                              "name": "virchow",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147765",
+                              "name": "tennessee",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147766",
+                              "name": "liverpool",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147767",
+                              "name": "uganda",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147768",
+                              "name": "gallinarum/pullorum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147769",
+                              "name": "minnesota",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147770",
+                              "name": "ohio",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147771",
+                              "name": "molade",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147772",
+                              "name": "litchfield",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147773",
+                              "name": "sandiego",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147774",
+                              "name": "meleagridis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147780",
+                              "name": "barranquilla",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147781",
+                              "name": "cubana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147782",
+                              "name": "gaminara",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147783",
+                              "name": "havana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147784",
+                              "name": "idikan",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147785",
+                              "name": "lille",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147786",
+                              "name": "pomona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147787",
+                              "name": "putten",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147788",
+                              "name": "roodepoort",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147789",
+                              "name": "muenster",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147790",
+                              "name": "norwich",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147791",
+                              "name": "worthington",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147792",
+                              "name": "ouakam",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "3350",
+                  "name": "salmonella bongori",
+                  "selected": false,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "TaxonomyElement",
+            "id": "126578",
+            "name": "listeria",
+            "selected": true,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "395",
+                  "name": "listeria monocytogenes",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2172",
+                  "name": "listeria welshimeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2222",
+                  "name": "listeria innocua",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2223",
+                  "name": "listeria seeligeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2224",
+                  "name": "listeria ivanovii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2225",
+                  "name": "listeria marthii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "38710",
+                  "name": "listeria grayi",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "qcSetting": {
+        "__typename": "TaxonomyElement",
+        "id": "147724",
+        "name": "abaetetuba",
+        "selected": false
+      },
+      "secondaryAnalysisEnabled": false,
+      "similarityAnalysisEnabled": true
+    }
+  },
+  {
+    "__typename": "Sample",
+    "id": "adb51b4e-6ea0-401c-aa7d-9cd9279cc759",
+    "clientSampleId": "CL-A0-0003-5460",
+    "sampledBy": "",
+    "dateSampled": 1598300047495,
+    "sampleSite": {
+      "__typename": "SampleSite",
+      "id": "0597ca7d-424e-40c4-b550-649f61161f15",
+      "clientSampleSiteId": "23",
+      "description": "sample site description",
+      "floorObject": {
+        "__typename": "FloorObject",
+        "id": "530f070e-49c1-4972-b234-46cfbce5d497",
+        "name": "Convey 32 sn:2001"
+      },
+      "lineNumber": "34",
+      "sampleSitePosition": {
+        "__typename": "SampleSitePosition",
+        "x": 2356,
+        "y": 3122
+      },
+      "zone": "ZONE_1"
+    },
+    "taxonomySetting": {
+      "__typename": "TaxonomySetting",
+      "taxonomyLineage": {
+        "__typename": "TaxonomyLineage",
+        "enabled": true,
+        "rank": "GENUS",
+        "taxonomyElements": [
+          {
+            "__typename": "TaxonomyElement",
+            "id": "1066",
+            "name": "salmonella",
+            "selected": false,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2229",
+                  "name": "salmonella enterica",
+                  "selected": false,
+                  "taxonomySubLineage": {
+                    "__typename": "TaxonomyLineage",
+                    "enabled": false,
+                    "rank": "SUBSPECIES",
+                    "taxonomyElements": [
+                      {
+                        "__typename": "TaxonomyElement",
+                        "id": "147723",
+                        "name": "salmonella enterica subsp. enterica",
+                        "selected": false,
+                        "taxonomySubLineage": {
+                          "__typename": "TaxonomyLineage",
+                          "enabled": false,
+                          "rank": "SEROTYPE",
+                          "taxonomyElements": [
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147725",
+                              "name": "agona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147726",
+                              "name": "alachua",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147727",
+                              "name": "albany",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147728",
+                              "name": "anatum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147729",
+                              "name": "bareilly",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147730",
+                              "name": "berta",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147731",
+                              "name": "blockley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147732",
+                              "name": "braenderup",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147733",
+                              "name": "cerro",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147734",
+                              "name": "derby",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147735",
+                              "name": "dublin",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147736",
+                              "name": "enteritidis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147737",
+                              "name": "give",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147738",
+                              "name": "hadar",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147739",
+                              "name": "heidelberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147740",
+                              "name": "i 4,[5],12:i:-",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147741",
+                              "name": "infantis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147742",
+                              "name": "javiana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147743",
+                              "name": "johannesburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147744",
+                              "name": "kentucky",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147745",
+                              "name": "mbandaka",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147746",
+                              "name": "mississippi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147747",
+                              "name": "montevideo",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147748",
+                              "name": "muenchen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147749",
+                              "name": "newport",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147750",
+                              "name": "oranienburg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147751",
+                              "name": "panama",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147752",
+                              "name": "paratyphi b",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147753",
+                              "name": "poona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147754",
+                              "name": "reading",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147755",
+                              "name": "rissen",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147756",
+                              "name": "saintpaul",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147757",
+                              "name": "schwarzengrund",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147758",
+                              "name": "senftenberg",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147759",
+                              "name": "stanley",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147760",
+                              "name": "thompson",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147761",
+                              "name": "typhi",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147762",
+                              "name": "typhimurium",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147763",
+                              "name": "virchow",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147765",
+                              "name": "tennessee",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147766",
+                              "name": "liverpool",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147767",
+                              "name": "uganda",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147768",
+                              "name": "gallinarum/pullorum",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147769",
+                              "name": "minnesota",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147770",
+                              "name": "ohio",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147771",
+                              "name": "molade",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147772",
+                              "name": "litchfield",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147773",
+                              "name": "sandiego",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147774",
+                              "name": "meleagridis",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147780",
+                              "name": "barranquilla",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147781",
+                              "name": "cubana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147782",
+                              "name": "gaminara",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147783",
+                              "name": "havana",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147784",
+                              "name": "idikan",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147785",
+                              "name": "lille",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147786",
+                              "name": "pomona",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147787",
+                              "name": "putten",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147788",
+                              "name": "roodepoort",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147789",
+                              "name": "muenster",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147790",
+                              "name": "norwich",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147791",
+                              "name": "worthington",
+                              "selected": false
+                            },
+                            {
+                              "__typename": "TaxonomyElement",
+                              "id": "147792",
+                              "name": "ouakam",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "3350",
+                  "name": "salmonella bongori",
+                  "selected": false,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "TaxonomyElement",
+            "id": "126578",
+            "name": "listeria",
+            "selected": true,
+            "taxonomySubLineage": {
+              "__typename": "TaxonomyLineage",
+              "enabled": true,
+              "rank": "SPECIES",
+              "taxonomyElements": [
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "395",
+                  "name": "listeria monocytogenes",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2172",
+                  "name": "listeria welshimeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2222",
+                  "name": "listeria innocua",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2223",
+                  "name": "listeria seeligeri",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2224",
+                  "name": "listeria ivanovii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "2225",
+                  "name": "listeria marthii",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                },
+                {
+                  "__typename": "TaxonomyElement",
+                  "id": "38710",
+                  "name": "listeria grayi",
+                  "selected": true,
+                  "taxonomySubLineage": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "qcSetting": {
+        "__typename": "TaxonomyElement",
+        "id": "147724",
+        "name": "abaetetuba",
+        "selected": false
+      },
+      "secondaryAnalysisEnabled": false,
+      "similarityAnalysisEnabled": true
+    }
+  }
+]
